@@ -115,6 +115,7 @@ a {
 .aligned-text {
   display: block;
   letter-spacing: 30px;
+  padding-bottom: 20px;
 }
 
 .aligned-text_left {
@@ -137,10 +138,13 @@ a {
   letter-spacing: 60px;
 }
 
+.letter-spacing-right {
+  letter-spacing: 30px;
+}
+
 .no-letter-spacing {
   letter-spacing: 0;
 }
-
 
 .cover__description-text {
   display: flex;
@@ -343,7 +347,7 @@ a {
   align-content: space-between;
   justify-items: end;
   position: relative;
-  inset: 180px 0 88px;
+  inset: 220px 0 88px;
   color: #000;
 }
 
@@ -401,5 +405,3 @@ a {
   width: 48px;
   height: 48px;
 }
-
-
